@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Animation</title>
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img
+            src="img/hero.png"
+            data-speed=".6"
+            data-lag=".5"
+            alt="Hero Image"
+            class="hero"
+          />
+          <div class="container">
+            <div class="main-header" data-speed=".75">
+              <h1 class="main-title">creative scroll</h1>
+            </div>
+          </div>
+        </header>
+        <div class="portfolio">
+          <div class="container">
+            <div class="gallery">
+              <div class="gallery__left" data-speed=".9">
+                <img class="gallery__item" src="img/work/1.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/2.jpg" alt="Alt" />
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                    sed ullam impedit.
+                  </p>
+                </div>
+                <img class="gallery__item" src="img/work/6.jpg" alt="Alt" />
+              </div>
+              <div class="gallery__right" data-speed="1.1">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                    sed ullam impedit.
+                  </p>
+                </div>
+                <img class="gallery__item" src="img/work/3.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/5.jpg" alt="Alt" />
+
+                <img class="gallery__item" src="img/work/4.jpg" alt="Alt" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
